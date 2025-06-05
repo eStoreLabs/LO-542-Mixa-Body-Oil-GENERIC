@@ -43,7 +43,7 @@
 }
 #es-rc #es-rc-content .es-header--disclaimer {
   display: block;
-  font-size: 10px;
+  font-size: 8px;
   color: #000000;
   font-weight: 400;
 }
@@ -115,8 +115,12 @@
 #es-rc #es-rc-content .es-kv__disclaimer {
   font-size: 7px;
   position: absolute;
-  bottom: 3%;
+  bottom: -2%;
   left: 10%;
+}
+#es-rc #es-rc-content .es-kv .es-kv__text--blue {
+  color: #0058bf;
+  font-weight: bold;
 }
 #es-rc #es-rc-content .es-features {
   position: relative;
@@ -216,7 +220,7 @@
 }
 #es-rc #es-rc-content .es-formula__title {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
   text-align: center;
 }
@@ -283,7 +287,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #es-rc #es-rc-content .es-ba__left-inner {
   position: relative;
@@ -296,13 +302,19 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+#es-rc #es-rc-content .es-ba__left-before--bold {
+  font-weight: bold;
+}
 #es-rc #es-rc-content .es-ba__left-after {
   padding: 8px;
   position: absolute;
   top: 0%;
-  right: 17%;
+  right: 26%;
   color: #ffffff;
   text-transform: uppercase;
+}
+#es-rc #es-rc-content .es-ba__left-after--bold {
+  font-weight: bold;
 }
 #es-rc #es-rc-content .es-ba__left-image {
   margin-bottom: 20px;
@@ -327,28 +339,28 @@
 }
 #es-rc #es-rc-content .es-formule__left-title-1 {
   position: absolute;
-  top: 5%;
-  left: 9%;
-  background-color: rgba(255, 255, 255, 0.5);
+  top: 39%;
+  left: 40%;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   font-weight: 700;
   padding: 8px;
   padding-left: 20px;
   padding-right: 30px;
-  font-size: 14px;
+  font-size: 10px;
   border: 2px solid #ffffff;
 }
 #es-rc #es-rc-content .es-formule__left-title-2 {
   position: absolute;
-  top: 25%;
-  right: 5%;
-  background-color: rgba(255, 255, 255, 0.5);
+  top: 64%;
+  right: 34%;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   font-weight: 700;
   padding: 8px;
   padding-left: 20px;
   padding-right: 30px;
-  font-size: 14px;
+  font-size: 10px;
   border: 2px solid #ffffff;
   text-align: center;
 }
@@ -416,11 +428,11 @@
   width: max-content;
 }
 #es-rc #es-rc-content .es-cross .es-header {
-  padding: 6px 12px;
+  padding: 6px 45px;
   color: #ffffff;
   background: #ffad00;
   border-radius: 10px 0px 0 0;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
 }
 #es-rc #es-rc-content .es-cross .es-header--bold {
@@ -537,10 +549,10 @@
     max-height: 300px;
   }
 }
-@media (min-width: 600px) {
-  #es-rc #es-rc-content .es-formule {
-    flex-direction: row;
-    margin-bottom: 80px;
+@media (min-width: 450px) {
+  #es-rc #es-rc-content .es-formule__left-title-2 {
+    top: 64%;
+    right: 53%;
   }
 }
 @media (min-width: 576px) {
@@ -649,11 +661,26 @@
     height: 4em;
   }
 }
+@media (min-width: 600px) {
+  #es-rc #es-rc-content .es-formule {
+    flex-direction: row;
+    margin-bottom: 80px;
+  }
+  #es-rc #es-rc-content .es-formule__left-title-2 {
+    right: 35%;
+  }
+}
 @media (min-width: 720px) {
   #es-rc #es-rc-content .es-kv {
     display: flex;
     position: relative;
     min-height: 400px;
+  }
+  #es-rc #es-rc-content .es-kv__disclaimer {
+    font-size: 7px;
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
   }
   #es-rc #es-rc-content .es-kv__right {
     min-height: 400px;
@@ -687,7 +714,7 @@
     display: block;
   }
   #es-rc #es-rc-content .es-kv__logo {
-    margin: 23px 25px;
+    margin: 23px 55px;
     padding: unset;
     max-width: 120px;
   }
@@ -699,12 +726,16 @@
     padding-top: 10px;
     padding-bottom: 5px;
   }
+  #es-rc #es-rc-content .es-header--big {
+    font-size: 30px;
+  }
   #es-rc #es-rc-content .es-header--bold {
-    font-size: 23px;
+    font-size: 30px;
   }
   #es-rc #es-rc-content .es-header--bold-1 {
     font-size: 45px;
     text-transform: uppercase;
+    line-height: 1.2;
   }
   #es-rc #es-rc-content .es-kv__header {
     font-size: 23px;
@@ -714,7 +745,7 @@
   }
   #es-rc #es-rc-content .es-kv__text {
     max-width: 500px;
-    font-size: 17px;
+    font-size: 18px;
   }
   #es-rc #es-rc-content .es-features__text {
     font-size: 1.5em;
@@ -731,14 +762,26 @@
     text-align: left;
   }
   #es-rc #es-rc-content .es-formula {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-bottom: 50px;
     position: relative;
     z-index: 0;
   }
+  #es-rc #es-rc-content .es-formula__title {
+    padding-top: 65px;
+  }
+  #es-rc #es-rc-content .es-formula__title--blue {
+    padding-top: 10px;
+  }
   #es-rc #es-rc-content .es-formula__bg {
     display: block;
     width: 140%;
+  }
+  #es-rc #es-rc-content .es-formula__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
   }
   #es-rc #es-rc-content .es-formula__wrapper {
     flex-direction: row;
@@ -816,7 +859,10 @@
     max-height: 500px;
   }
   #es-rc #es-rc-content .es-formule__left-title-1, #es-rc #es-rc-content .es-formule__left-title-2, #es-rc #es-rc-content .es-formule__right-title-1, #es-rc #es-rc-content .es-formule__right-title-2 {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  #es-rc #es-rc-content .es-formule__right-title-1 {
+    font-size: 17px;
   }
   #es-rc #es-rc-content .es-formule__left-title-1 {
     top: 41%;
@@ -824,7 +870,7 @@
   }
   #es-rc #es-rc-content .es-formule__left-title-2 {
     top: 63%;
-    right: 33%;
+    right: 27%;
   }
   #es-rc #es-rc-content .es-formule__right-title-2 {
     right: 1%;
@@ -840,14 +886,23 @@
     margin-bottom: 83px;
   }
   #es-rc #es-rc-content .es-ba__left-title {
-    margin-bottom: 30px;
-    font-size: 23px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding-right: 39px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  #es-rc #es-rc-content .es-ba__left-title--small {
+    font-size: 18px;
   }
   #es-rc #es-rc-content .es-ba__right {
     margin-left: -16px;
   }
   #es-rc #es-rc-content .es-ba__right-image {
     display: block;
+    z-index: 1;
+    position: relative;
   }
 }
 @media (min-width: 992px) {
@@ -875,4 +930,11 @@
     padding-left: 50px;
     padding-right: 0;
   }
-}/*# sourceMappingURL=styles.css.map */
+  #es-rc #es-rc-content .es-formule__right-title-1 {
+    font-size: 22px;
+  }
+  #es-rc #es-rc-content .es-formule__left-title-2 {
+    top: 63%;
+    right: 36%;
+  }
+}/*# sourceMappingURL=style.css.map */
