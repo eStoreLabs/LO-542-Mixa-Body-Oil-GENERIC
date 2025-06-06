@@ -313,7 +313,7 @@
   padding: 8px;
   position: absolute;
   top: 0%;
-  right: 20%;
+  left: 50%;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 10px;
@@ -692,6 +692,7 @@
   #es-rc #es-rc-content .es-ba__left-after {
     font-size: 14px;
     right: 18%;
+    left: 51%;
   }
 }
 @media (min-width: 720px) {
@@ -960,8 +961,5 @@
   #es-rc #es-rc-content .es-formule__left-title-2 {
     top: 63%;
     right: 36%;
-  }
-  #es-rc #es-rc-content .es-ba__left-after {
-    right: 26%;
   }
 }/*# sourceMappingURL=style.css.map */

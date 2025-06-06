@@ -413,7 +413,7 @@ $padding-XXL: 50px;
       padding: $padding-XS;
       position: absolute;
       top: 0%;
-      right: 20%;
+      left: 50%;
       color: $color-white;
       text-transform: uppercase;
       font-size: 10px;
@@ -911,6 +911,7 @@ $padding-XXL: 50px;
       &__left-after {
         font-size: 14px;
         right: 18%;
+        left: 51%;
       }
     }
   }
@@ -1283,10 +1284,5 @@ $padding-XXL: 50px;
       }
     }
 
-    .es-ba {
-      &__left-after {
-        right: 26%;
-      }
-    }
   }
 }
