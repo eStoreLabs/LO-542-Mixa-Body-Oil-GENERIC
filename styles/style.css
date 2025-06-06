@@ -278,6 +278,7 @@
   font-weight: 700;
   font-size: 18px;
   text-align: center;
+  padding: 16px;
 }
 #es-rc #es-rc-content .es-ba__left-title--white {
   color: #ffffff;
@@ -303,6 +304,7 @@
   left: 15%;
   color: #ffffff;
   text-transform: uppercase;
+  font-size: 10px;
 }
 #es-rc #es-rc-content .es-ba__left-before--bold {
   font-weight: bold;
@@ -311,9 +313,10 @@
   padding: 8px;
   position: absolute;
   top: 0%;
-  right: 26%;
+  right: 20%;
   color: #ffffff;
   text-transform: uppercase;
+  font-size: 10px;
 }
 #es-rc #es-rc-content .es-ba__left-after--bold {
   font-weight: bold;
@@ -683,6 +686,13 @@
   #es-rc #es-rc-content .es-formule__left-title-2 {
     right: 35%;
   }
+  #es-rc #es-rc-content .es-ba__left-before {
+    font-size: 14px;
+  }
+  #es-rc #es-rc-content .es-ba__left-after {
+    font-size: 14px;
+    right: 18%;
+  }
 }
 @media (min-width: 720px) {
   #es-rc #es-rc-content .es-kv {
@@ -950,5 +960,8 @@
   #es-rc #es-rc-content .es-formule__left-title-2 {
     top: 63%;
     right: 36%;
+  }
+  #es-rc #es-rc-content .es-ba__left-after {
+    right: 26%;
   }
 }/*# sourceMappingURL=style.css.map */
