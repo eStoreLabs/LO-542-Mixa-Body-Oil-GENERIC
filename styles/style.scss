@@ -250,6 +250,8 @@ $padding-XXL: 50px;
       max-width: 375px;
       margin: 0 auto;
       padding: $padding-S;
+      margin-top: -50px;
+      padding-bottom: 50px;
       text-align: center;
       font-weight: bold;
       color: #fff;
@@ -1036,6 +1038,7 @@ $padding-XXL: 50px;
         margin-left: 25%;
         line-height: 1.4;
         text-align: left;
+        padding: $padding-S;
       }
     }
 

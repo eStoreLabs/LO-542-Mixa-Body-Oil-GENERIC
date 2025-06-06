@@ -183,6 +183,8 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 16px;
+  margin-top: -50px;
+  padding-bottom: 50px;
   text-align: center;
   font-weight: bold;
   color: #fff;
@@ -785,6 +787,7 @@
     margin-left: 25%;
     line-height: 1.4;
     text-align: left;
+    padding: 16px;
   }
   #es-rc #es-rc-content .es-formula {
     margin-bottom: 50px;
