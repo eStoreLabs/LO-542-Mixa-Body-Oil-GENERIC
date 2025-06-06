@@ -81,6 +81,7 @@
   background-color: #ffad00;
   color: #ffffff;
   font-weight: 700;
+  border-radius: 0 10px 0 0;
   text-align: right;
 }
 #es-rc #es-rc-content .es-kv__textWrapper {
@@ -99,7 +100,7 @@
   color: #0058bf;
   text-align: center;
   border-radius: 12px 0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   text-align: right;
   transition: all 200ms ease-in-out;
@@ -183,6 +184,7 @@
   margin: 0 auto;
   padding: 16px;
   text-align: center;
+  font-weight: bold;
   color: #fff;
 }
 #es-rc #es-rc-content .es-features__icon {
@@ -538,6 +540,18 @@
   height: 60px;
   display: grid;
   place-items: center;
+}
+#es-rc #es-rc-content .es-ekspert__icon-img--1 {
+  width: 30px;
+}
+#es-rc #es-rc-content .es-ekspert__icon-img--2 {
+  width: 35px;
+}
+#es-rc #es-rc-content .es-ekspert__icon-img--3 {
+  width: 25px;
+}
+#es-rc #es-rc-content .es-ekspert__icon-img--4 {
+  width: 35px;
 }
 @media (min-width: 576px) and (max-width: 719px) {
   #es-rc #es-rc-content .es-kv__packshot {
