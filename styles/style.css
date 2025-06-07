@@ -203,7 +203,7 @@
   display: none;
 }
 #es-rc #es-rc-content .es-features__logo-img {
-  max-width: 90px;
+  max-width: 100px;
   margin-bottom: 110px;
 }
 #es-rc #es-rc-content .es-formula {
@@ -576,7 +576,7 @@
 }
 @media (min-width: 576px) {
   #es-rc #es-rc-content .es-features {
-    padding-top: 50px;
+    padding-top: 35px;
     padding-bottom: 50px;
     margin-bottom: 50px;
     align-items: flex-start;
